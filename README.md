@@ -15,47 +15,37 @@ MENTOR: NEELA SANTOSH
 
 CODE OF THE TASK:https://nbviewer.org/github/Asmitha-GitHub/PREDICTIVE-ANALYSIS-USING-MACHINE-LEARNING/blob/main/PREDICTIVE_ANALYSIS_USING_MACHINE_LEARNING.ipynb
 
-DESCRIPTION OF TASK 4:During my internship with CodTech IT Solutions, under the guidance of mentor Neela Santosh, I was assigned a project involving Sentiment Analysis using Natural Language Processing (NLP) techniques. The objective was to process and analyze textual data and classify sentiments as Positive, Negative, or Neutral.
+DESCRIPTION OF TASK 4:During the continuation of my internship at CodTech IT Solutions, guided by my mentor Neela Santosh, I was assigned Task 4 under the domain of Natural Language Processing (NLP). This task focused on performing sentiment analysis on textual data using various NLP techniques and machine learning models.
 
-I selected the Amazon Fine Food Reviews dataset, which contains over 299,000 reviews of food products. The dataset includes fields such as Summary, Text, Score, and Helpfulness, which provided a rich base for natural language sentiment classification.
+For this task, I selected the widely used Amazon Fine Food Reviews dataset, which contains over 299,000 reviews from Amazon users, including review text, ratings (1–5), product information, and reviewer details. My analysis was based on the Text and Score columns, which I used to classify sentiments as positive, negative, or neutral.
 
-🔧 Steps I followed:
-Data Preprocessing:
+The project was developed entirely using Python in Jupyter Notebook, with libraries like pandas, NumPy, matplotlib, seaborn, NLTK, and scikit-learn.
 
-Handled missing values and removed unnecessary columns like Id, UserId, ProfileName, etc.
+To start, I loaded the dataset and conducted initial exploration — checking data structure, missing values, and value distributions. I then preprocessed the text data through a series of NLP steps including:
 
-Combined Summary and Text columns for more expressive reviews.
+Converting text to lowercase
 
-Converted the Score column into sentiment labels (Positive/Negative/Neutral).
+Removing punctuation and numbers
 
-Applied text-cleaning operations (lowercasing, removing punctuation, stopwords, etc.).
+Eliminating stopwords
 
-Exploratory Data Analysis (EDA):
+Tokenization and stemming
 
-Used visualizations like countplots to understand the distribution of sentiment classes.
+After preprocessing, I created a new Sentiment column based on the Score values:
 
-Checked the balance of labels to ensure model fairness.
+Scores 4–5 labeled as Positive
 
-Feature Extraction:
+Score 3 as Neutral
 
-Used TF-IDF Vectorization to convert the text data into numerical features for model compatibility.
+Scores 1–2 as Negative
 
-Model Building:
+To convert textual data into numerical format for model training, I used TF-IDF vectorization. I then split the dataset into training and testing sets and trained classification models like Logistic Regression and Multinomial Naive Bayes.
 
-(Optional/Bonus) Built a simple Logistic Regression model for classification.
+Each model was evaluated using metrics like accuracy, precision, recall, and F1-score. I also used confusion matrices and visualized the sentiment distribution using seaborn.
 
-Evaluated the model using accuracy and confusion matrix.
+Through this task, I gained a deeper understanding of NLP pipelines and the importance of proper text preprocessing for improving model performance. I also learned to interpret sentiment trends from real-world customer feedback and extract useful insights from unstructured data.
 
-Insights:
-
-Most reviews are positive, followed by neutral, and negative.
-
-Text data preprocessing significantly impacts model performance.
-
-📊 Tools & Libraries Used:
-Python, Pandas, NumPy, Matplotlib, Seaborn, NLTK
-
-Scikit-learn for vectorization and model building
+Overall, Task 4 significantly improved my ability to build NLP-based classification models and gave me practical exposure to text analysis — one of the core applications of modern AI systems.
 
 OUTPUT:
 
