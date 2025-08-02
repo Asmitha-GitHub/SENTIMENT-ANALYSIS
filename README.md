@@ -56,3 +56,7 @@ Text data preprocessing significantly impacts model performance.
 Python, Pandas, NumPy, Matplotlib, Seaborn, NLTK
 
 Scikit-learn for vectorization and model building
+
+OUTPUT:
+
+<img width="597" height="455" alt="Image" src="https://github.com/user-attachments/assets/4ee1a943-43f7-4d8c-a579-635cedcce93a" />
