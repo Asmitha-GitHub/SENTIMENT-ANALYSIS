@@ -13,7 +13,7 @@ DURATION: 8 WEEKS
 
 MENTOR: NEELA SANTOSH
 
-CODE OF THE TASK:https://nbviewer.org/github/Asmitha-GitHub/PREDICTIVE-ANALYSIS-USING-MACHINE-LEARNING/blob/main/PREDICTIVE_ANALYSIS_USING_MACHINE_LEARNING.ipynb
+CODE OF THE TASK:https://nbviewer.org/github/Asmitha-GitHub/SENTIMENT-ANALYSIS/blob/main/SENTIMENT_ANALYSIS.ipynb
 
 DESCRIPTION OF TASK 4:During the continuation of my internship at CodTech IT Solutions, guided by my mentor Neela Santosh, I was assigned Task 4 under the domain of Natural Language Processing (NLP). This task focused on performing sentiment analysis on textual data using various NLP techniques and machine learning models.
 
